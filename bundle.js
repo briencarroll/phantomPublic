@@ -120,7 +120,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #222;\n  width: 100%;\n  height: 100%;\n  background: url(" + __webpack_require__(8) + ") no-repeat fixed center;\n  background-size: 100%;\n}\n\n.please {\n  margin: 30px auto 0px 30px;\n  padding: 40px;\n  width: 720px;\n  min-height: 70vh;\n  background-color: rgba(0,0,0,.5);\n  color: #cfcfcf;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: #222;\n  width: 100%;\n  height: 100%;\n  background: url(" + __webpack_require__(8) + ") no-repeat fixed center;\n  background-size: cover;\n  font-family: 'Mako', sans-serif;\n}\n\n.please {\n  margin: 30px auto 0px 30px;\n  padding: 40px;\n  width: 720px;\n  min-height: 70vh;\n  background-color: rgba(0,0,0,.5);\n  color: #cfcfcf;\n}\n", ""]);
 
 // exports
 
