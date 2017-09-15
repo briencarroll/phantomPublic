@@ -736,11 +736,7 @@ exports.push([module.i, "body {\n  background-color: #222;\n  width: 100%;\n  he
 "use strict";
 
 
-console.log('hey');
-
-var x = 10;
-
-console.log(x);
+console.log('Hello, we are Phantom Public');
 
 /***/ })
 /******/ ]);
