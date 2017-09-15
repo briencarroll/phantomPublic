@@ -13,7 +13,10 @@ module.exports = {
     new GoogleFontsPlugin({
       fonts: [
         {
-          family: 'Mako'
+          family: 'Arsenal'
+        },
+        {
+          family: 'Copse'
         }
       ]
     }),
