@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "google-fonts-webpack-plugin": "^0.4.2",
+    "itslog": "^1.2.4",
     "reset-css": "^2.2.1"
   }
 }
