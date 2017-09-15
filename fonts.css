@@ -1,0 +1,28 @@
+/* === Arsenal - regular */
+@font-face {
+	font-family: 'Arsenal';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/Arsenal-Regular.eot");
+	src: local("Arsenal Regular"),
+		local("Arsenal-Regular"),
+		url("./font/Arsenal-Regular.eot") format("embedded-opentype"),
+		url("./font/Arsenal-Regular.woff2") format("woff2"),
+		url("./font/Arsenal-Regular.woff") format("woff"),
+		url("./font/Arsenal-Regular.ttf") format("truetype"),
+		url("./font/Arsenal-Regular.svg") format("svg");
+}
+
+/* === Copse - regular */
+@font-face {
+	font-family: 'Copse';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/Copse-Regular.eot");
+	src: local("Copse"),
+		url("./font/Copse-Regular.eot") format("embedded-opentype"),
+		url("./font/Copse-Regular.woff2") format("woff2"),
+		url("./font/Copse-Regular.woff") format("woff"),
+		url("./font/Copse-Regular.ttf") format("truetype"),
+		url("./font/Copse-Regular.svg") format("svg");
+}
