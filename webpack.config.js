@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const GoogleFontsPlugin = require("google-fonts-webpack-plugin")
 
 module.exports = {
   entry: './src/index.js',
@@ -9,6 +10,13 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
+    new GoogleFontsPlugin({
+      fonts: [
+        {
+          family: 'Mako'
+        }
+      ]
+    }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Phantom Public',
