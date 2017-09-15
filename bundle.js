@@ -724,7 +724,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #222;\n  width: 100%;\n  height: 100%;\n  background: url(" + __webpack_require__(0) + ") no-repeat fixed center;\n  background-size: cover;\n  font-family: 'Arsenal', sans-serif;\n}\n\n.please {\n  margin: 30px auto 0px 30px;\n  padding: 20px;\n  width: 40vw;\n  min-height: 65vh;\n  background-color: rgba(0,0,0,.5);\n  color: #cfcfcf;\n}\n\n.stop {\n  width: 500px;\n  height: 100%;\n}\n\n.help {\n  width: 100%;\n  height: 100%;\n  margin-bottom: 20px;\n}\n\n.me {\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n\n@media only screen and (max-width: 800px) {\n  .please {\n    margin: 0 auto;\n    padding: 10px;\n    width: 90vw;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: #222;\n  width: 100%;\n  height: 100%;\n  background: url(" + __webpack_require__(0) + ") no-repeat fixed center;\n  background-size: cover;\n  font-family: 'Arsenal', sans-serif;\n}\n\n.please {\n  margin: 30px auto 0px 30px;\n  padding: 20px;\n  width: 40vw;\n  min-height: 65vh;\n  background-color: rgba(0,0,0,.5);\n  color: #cfcfcf;\n}\n\n.stop {\n  width: 500px;\n  height: 100%;\n}\n\n.help {\n  width: 100%;\n  height: 100%;\n  margin-bottom: 20px;\n}\n\n.me {\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n\n@media only screen and (max-device-width: 800px) {\n  .please {\n    margin: 0 auto;\n    padding: 10px;\n    width: 90vw;\n  }\n}\n", ""]);
 
 // exports
 
