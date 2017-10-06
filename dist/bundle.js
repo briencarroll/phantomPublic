@@ -736,10 +736,10 @@ exports.push([module.i, "html {\n  box-sizing: border-box;\n}\n*, *:before, *:af
 "use strict";
 
 
-console.log('Hello, we are Phantom Public');
-console.log('Thanks for visiting. Our first EP, Into The Blue, has been released');
-console.log('We hope you enjoy it');
-console.log('And we hope that everyone stops killing one another');
+console.error('Hello, we are Phantom Public');
+console.warn('Thanks for visiting. Our first EP, Into The Blue, has been released');
+console.table('We hope you enjoy it');
+console.error('be kind to living things');
 
 /***/ })
 /******/ ]);
