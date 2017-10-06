@@ -10,16 +10,16 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    new GoogleFontsPlugin({
-      fonts: [
-        {
-          family: 'Arsenal'
-        },
-        {
-          family: 'Copse'
-        }
-      ]
-    }),
+    // new GoogleFontsPlugin({
+    //   fonts: [
+    //     {
+    //       family: 'Arsenal'
+    //     },
+    //     {
+    //       family: 'Copse'
+    //     }
+    //   ]
+    // }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Phantom Public',
