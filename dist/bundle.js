@@ -534,7 +534,7 @@ __webpack_require__(10);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-  var albumCover = document.querySelector('.me');
+  var albumCover = document.querySelector('.everyone');
   albumCover.src = _ep2.default;
 });
 

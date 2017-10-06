@@ -5,6 +5,6 @@ import './styles/site.css'
 import './scripts/site.js'
 
 document.addEventListener("DOMContentLoaded", (e) => {
-  const albumCover = document.querySelector('.me');
+  const albumCover = document.querySelector('.everyone');
   albumCover.src = EP;
 })
